@@ -2,8 +2,17 @@ name: Update Podkop custom lists
 
 on:
   workflow_dispatch:
+
   schedule:
     - cron: "15 3 * * *"
+
+  push:
+    branches:
+      - main
+    paths:
+      - "special.txt"
+      - "build.py"
+      - ".github/workflows/update.yml"
 
 permissions:
   contents: write
