@@ -17,3 +17,4 @@ featureassets.org
 intercom.io
 intercomcdn.com
 challenges.cloudflare.com
+chat.openai.com.cdn.cloudflare.net
