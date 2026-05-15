@@ -10,7 +10,7 @@ on:
     branches:
       - main
     paths:
-      - "special.txt"
+      - "groups.txt"
       - "build.py"
       - ".github/workflows/update.yml"
 
@@ -38,7 +38,7 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add dist/special.lst dist/russia-inside-custom.lst
+          git add -A dist
 
           if git diff --cached --quiet; then
             echo "No changes"
