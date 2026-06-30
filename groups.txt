@@ -27,3 +27,8 @@ claude.ai
 claude.com
 anthropic.com
 anthropic.qualtrics.com
+api.anthropic.com
+platform.claude.com
+downloads.claude.ai
+bridge.claudeusercontent.com
+claudeusercontent.com
